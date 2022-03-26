@@ -1,0 +1,28 @@
+/*  Bar Popko 312365067 - Elizabeth blinov 321966681 -  */
+
+* {
+  /*setting for box sizing*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+
+.register_form {
+  display: block;
+  padding: 20px 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+input[name="submit"] {
+  margin: 30px auto;
+  background: coral;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+}

@@ -1,0 +1,119 @@
+/*  Bar Popko 312365067 - Elizabeth blinov 321966681 -  */
+
+* {
+  /*setting for box sizing*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%; /*1 rem = 10px*/
+}
+
+html {
+  font-family: "Roboto", sans-serif; /*google font import*/
+}
+
+body {
+  /*background image*/
+  color: #000;
+  background: url("../img/wallpaper.jpg") fixed;
+  background-size: 100%;
+}
+
+.menu {
+  font-weight: bold;
+  font-size: 2rem;
+  display: grid;
+  margin-left: 2px;
+  grid-template-columns: repeat(3, 4em);
+  grid-template-rows: 30px;
+  justify-content: right;
+}
+
+.menu > p {
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  color: #d43232;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+label {
+  font-size: 2rem;
+}
+
+/*register */
+
+.register {
+  margin-left: 25px;
+  border: 2px solid #b38b0d;
+  padding-right: 50px;
+}
+
+.register:hover {
+  color: white;
+  margin-left: 25px;
+  border: 2px solid #fff;
+}
+
+.register_form {
+  display: block;
+  padding: 20px 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+input[type="submit"] {
+  margin: 30px auto;
+  background: coral;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+/*footer*/
+.footermain {
+  color: red;
+}
+
+.recent-post-label {
+  font-size: 1em;
+}
+.grid {
+  margin-top: 5em;
+  font-weight: bold;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: right;
+}
+
+.post1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  /* location */
+}
+
+.post1 h1 {
+  font-size: 1em;
+}
+
+.post1 p {
+  text-align: left;
+  font-size: 0.5em;
+}
+.errors {
+  color: red;
+}
+
+
